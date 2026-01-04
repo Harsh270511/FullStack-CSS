@@ -1,0 +1,20 @@
+div{
+  height: 150px;
+  width: 150px;
+  background-color: #ef1e1eff;
+  margin-top: 10px;
+  margin: 0 auto;
+  transition: margin-top 2s ease-in 0.2s;
+  /* transition used here to create changes after 5s & for milisecond use 5ms */
+  /* transition-duration: 1s;
+  transition-delay: 0.2s;
+  /* transition-timing-function: steps(6, end); */
+  /* transition-timing-function:cubic; 
+  text-align: center;
+  margin:20px; */
+}
+div:hover{
+  margin-top: 400px;
+  background-color: lime;
+  /* border-radius: 50%; */ 
+}

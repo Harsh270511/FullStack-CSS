@@ -1,0 +1,148 @@
+/* Universal Selectors */
+*{
+  font-family: "Courier New";
+}
+/*Element selector & when same property is applied on different element then we use (,) comma*/
+
+h1, h3{
+  color: #b92b27;
+}
+
+/*Id selector*/
+#login{
+  background-color: white;
+}
+
+#signup{
+  background-color: #b92b27;
+   color: white;
+}
+
+/* class selector */
+.upvote{
+  background-color: green;
+  color: white;
+}
+
+/* Descendant selector  class(post) ke andr vale anchor tags pr ye color & background-color property use kiya gya h & agr hum class define na krte to google ka color and bg-color me bhi yhi same properties lg jaati */
+
+.post a{
+  color: purple;
+  background-color: #b4f730ff;
+}
+
+nav ul li{
+  color: #18a13fff ;
+}
+ 
+nav ul li a{
+  color: #1411a0ff;
+}
+
+/* Adjacent sibling combinator */
+p + h3{
+  text-decoration: underline;
+}
+
+.upvote + button{
+  background-color: black;
+  color: #ffff00;
+
+}
+
+/* child combinator */
+div > input{
+  background-color: black;
+}
+
+/*Attributes selector*/
+input[type="text"]{
+  color: red;
+}
+
+input[type="password"]{
+  color: green;
+}
+
+input[type]{
+  background-color: ghostwhite;
+}
+
+/* practice Qs */
+
+/* This is way1: 
+
+div[id="myID"] p{
+  color:green;
+} */
+
+/* This is way 2 */
+#myID p{
+  color: blue;
+}
+
+/* Pseudo class */
+
+/* :hover*/
+button:hover{
+  background-color: #12dd19ff;
+  color: #181815ff;
+}
+
+h3:hover{
+  text-decoration: overline;
+}
+
+/* :active*/
+button:active{
+  background-color: hotpink;
+}
+p:active{
+  font-weight: bold;
+  color: #3cd4faff;
+}
+
+/* :checked*/
+input[type="radio"]:checked + label{
+  color: red;
+  font-weight: bold;
+}
+
+/* :nth-of-type */
+
+div:nth-of-type(2n+1){
+  background-color: #eaeb98ff;
+  font-type; bold;
+}
+
+/*Pseduo elements*/
+
+/* ::first-letter*/
+h1::first-letter{
+  color: #100222ff;
+  font-type: italic;
+}
+
+/* ::first-line*/
+p::first-line{
+  color: #116b30ff;
+} 
+
+/* ::selection*/
+p::selection{
+  background-color: lime;
+}
+
+/*Cascading property khti h jo last me define hoga vahi valid mana jayga and same elements pr apply kiya gya h as we see below ki h3 element hei h dono jgh to bg-color will be lime not yellow*/ 
+h3{
+  background-color: yellow;
+}
+
+h3{
+  background-color:lime;
+}
+
+/* !important now the h3 will never changes its property just after defining !important*/
+h3{
+  background-color: lime !important;
+}

@@ -1,0 +1,15 @@
+/* h1 is the block element but after change its behaviour using display: inline it behave like inline */
+ h1{
+  display: inline;
+  background-color: lime;
+} 
+h2{
+  display: inline;
+  background-color: yellow;
+}
+/*span is the inline element but after change its behaviour using display: block it behave like block */
+span{
+  display: block;
+  background-color: pink;
+  margin: 5px;
+}

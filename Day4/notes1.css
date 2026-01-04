@@ -1,0 +1,11 @@
+div{
+  height: 200px;
+  width: 200px;
+  /* if we decrese the alpha value to zero then the heading inside the div is visible because in this we use alpa channel & this is not work for the element this work with the color only */
+  background-color: rgba(80, 226, 48, 0.75);
+}
+
+#opacity{
+  opacity: 1;
+  background-color: pink;
+}

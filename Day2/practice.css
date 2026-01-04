@@ -1,0 +1,21 @@
+/* set font family of entire document to Courier New */
+*{
+  font-family: "Courier New";
+}
+
+/* set text color of all h1 heading to #1b74e4 */
+h1{
+  color: #1b74e4;
+}
+
+/* set background color of search button to black and text color to white */
+#searchbtn{
+  background-color: black;
+  color: white;
+}
+
+/* //set background color of  login  and signup button to aqua */
+.userbtn{
+  
+  background-color: aqua;
+}

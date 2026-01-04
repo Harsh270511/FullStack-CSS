@@ -1,0 +1,57 @@
+div{
+  background-color: lime;
+
+  /* height  */
+  height: 200px;
+
+  /* width */
+  width: 400px;
+
+  
+
+  /* border */
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+h1{
+  border-width: 2px;
+  border-style: dashed;
+  border-color: gray;
+}
+ /* border Shortand*/
+h3{
+  border: 10px solid black;
+
+  /*Border Sides*/
+  border-top-color: lime;
+  border-bottom-color: #ff00ff;
+  border-left-color: red;
+  border-right-color: yellow;
+
+}
+/*Border-radius*/
+div{
+  /* border-radius: 10px; */
+  border-radius: 10%;
+}
+button{
+  background-color: lime;
+  border-radius: 25px;
+}
+
+/*Padding*/
+div{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  /*writting the padding top,left etc we directly use padding:10px*/
+}
+
+/*Margin*/
+div{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+div{
+  background-color: lime;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+ display: inline-block;   /*if we not write -block then bg-color, border, height, widht,etc will not work so if we want block element to be inline without changing its properites we write display: inline as display: inline-block */
+}
+
+#third{
+ display: none;  /* the third div is remove from display */
+}

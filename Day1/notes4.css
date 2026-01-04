@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  font-family: arial;
+}
+
+h2 {
+  font-weight: 299;
+  text-align: right;
+  text-decoration: overline;
+}
+
+h3 {
+  text-align: left;
+  text-decoration: dotted line-through;
+}
+h4 {
+  /* text-decoration: wavy overline; */
+  font-family: impact;
+}
+
+p {
+  text-align: right;
+  font-weight: bold;
+  line-height: 2.5;
+  font-size: 15px;
+}
+/* // remove the blue line using text-decoration */
+a {
+  text-decoration: none;
+}

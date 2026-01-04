@@ -1,0 +1,7 @@
+div{
+  font-size: 2em;  /* the size of the inner div is increasing as moving inside the another div jayse small snow agr mountain se gire to niche aate ate bada ho jata h same as em me snowball effect hota h to ishko overcome krne ke liye we use rem  which is Root EM mtlb in this case root element mera section hoga to ushke respect me font size change hogi*/
+}
+
+p{
+  font-size: 1rem;
+}
