@@ -1,0 +1,33 @@
+h1{
+  background-color: blueviolet;
+}
+
+@media(width: 200px){
+    h1{
+      background-color: blue;
+    }
+  }
+
+@media(min-width: 400px){
+  h1{
+    background-color: bisque;
+  }
+}
+
+@media (max-width: 400px){
+  h1{
+    background-color: crimson;
+  }
+}
+
+@media(min-width: 100px) and(max-width: 200px){
+  h1{
+    background-color: black;
+  }
+}
+@media (orientation: landscape) {
+  h1{
+    background-color: rgb(196, 112, 11);
+    color: aqua;
+  }
+}
